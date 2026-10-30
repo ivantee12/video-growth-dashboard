@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+html,
+body {
+  background-color: rgb(var(--brand-bg));
+  color: rgb(var(--brand-fg));
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer utilities {
+  .card {
+    @apply rounded-xl border border-brand-border bg-brand-surface p-5 shadow-card;
+  }
+  .kpi-label {
+    @apply text-xs font-medium uppercase tracking-wide text-brand-muted;
+  }
+  .kpi-value {
+    @apply mt-2 text-3xl font-semibold tracking-tight;
+  }
+}
+
+/* Print styles for the daily report — clean PDF output */
+@media print {
+  html, body { background: white !important; color: black !important; }
+  .no-print { display: none !important; }
+  .card {
+    background: white !important;
+    border: 1px solid #e5e7eb !important;
+    box-shadow: none !important;
+    color: black !important;
+  }
+  .kpi-label { color: #6b7280 !important; }
+  nav { display: none !important; }
+}

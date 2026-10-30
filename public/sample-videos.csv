@@ -1,0 +1,13 @@
+platform,account,video_id,title,category,url,published_at,captured_at,views
+facebook,my-page,fb-01,Community event,Event,https://www.facebook.com/,2026-10-01T09:00:00+08:00,2026-10-22T12:00:00+08:00,1000
+facebook,my-page,fb-01,Community event,Event,https://www.facebook.com/,2026-10-01T09:00:00+08:00,2026-10-28T12:00:00+08:00,3000
+facebook,my-page,fb-01,Community event,Event,https://www.facebook.com/,2026-10-01T09:00:00+08:00,2026-10-29T12:00:00+08:00,5000
+instagram,my-profile,ig-01,A day behind the scenes,Behind the Scenes,https://www.instagram.com/,2026-10-01T09:00:00+08:00,2026-10-22T12:00:00+08:00,200
+instagram,my-profile,ig-01,A day behind the scenes,Behind the Scenes,https://www.instagram.com/,2026-10-01T09:00:00+08:00,2026-10-28T12:00:00+08:00,900
+instagram,my-profile,ig-01,A day behind the scenes,Behind the Scenes,https://www.instagram.com/,2026-10-01T09:00:00+08:00,2026-10-29T12:00:00+08:00,1200
+tiktok,my-tiktok,tt-01,Quick lifestyle tip,Lifestyle,https://www.tiktok.com/,2026-10-01T09:00:00+08:00,2026-10-22T12:00:00+08:00,500
+tiktok,my-tiktok,tt-01,Quick lifestyle tip,Lifestyle,https://www.tiktok.com/,2026-10-01T09:00:00+08:00,2026-10-28T12:00:00+08:00,2000
+tiktok,my-tiktok,tt-01,Quick lifestyle tip,Lifestyle,https://www.tiktok.com/,2026-10-01T09:00:00+08:00,2026-10-29T12:00:00+08:00,8000
+xiaohongshu,my-red,red-01,活动花絮,Event,https://www.xiaohongshu.com/,2026-10-01T09:00:00+08:00,2026-10-22T12:00:00+08:00,100
+xiaohongshu,my-red,red-01,活动花絮,Event,https://www.xiaohongshu.com/,2026-10-01T09:00:00+08:00,2026-10-28T12:00:00+08:00,400
+xiaohongshu,my-red,red-01,活动花絮,Event,https://www.xiaohongshu.com/,2026-10-01T09:00:00+08:00,2026-10-29T12:00:00+08:00,700
